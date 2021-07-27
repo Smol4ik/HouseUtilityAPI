@@ -79,7 +79,7 @@ namespace HouseUtilityAPI2.Controllers.Autorization
                 users = users.Where(userItem => userItem.userId != id).ToArray();
                 return Content($"Success");
             }
-            return BadRequest("Error");
+            return BadRequest("Error!");
         }
 
 
